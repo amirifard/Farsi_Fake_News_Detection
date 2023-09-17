@@ -1,0 +1,457 @@
+{
+    "data": {
+        "__type": {
+            "name": "Query",
+            "fields": [
+                {
+                    "name": "embed",
+                    "description": null,
+                    "type": {
+                        "name": "EmbedNode",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "embeds",
+                    "description": null,
+                    "type": {
+                        "name": "EmbedNodeConnection",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "staticPage",
+                    "description": null,
+                    "type": {
+                        "name": "StaticPageNode",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "staticPages",
+                    "description": null,
+                    "type": {
+                        "name": "StaticPageNodeConnection",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "rating",
+                    "description": null,
+                    "type": {
+                        "name": "RatingNode",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "ratings",
+                    "description": null,
+                    "type": {
+                        "name": "RatingNodeConnection",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "label",
+                    "description": null,
+                    "type": {
+                        "name": "LabelNode",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "labels",
+                    "description": null,
+                    "type": {
+                        "name": "LabelNodeConnection",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "teamMember",
+                    "description": null,
+                    "type": {
+                        "name": "TeamMemberNode",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "teamMembers",
+                    "description": null,
+                    "type": {
+                        "name": "TeamMemberNodeConnection",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "mention",
+                    "description": null,
+                    "type": {
+                        "name": "MentionNode",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "mentions",
+                    "description": null,
+                    "type": {
+                        "name": "MentionNodeConnection",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "faq",
+                    "description": null,
+                    "type": {
+                        "name": "FaqNode",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "faqs",
+                    "description": null,
+                    "type": {
+                        "name": "FaqNodeConnection",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "podcast",
+                    "description": null,
+                    "type": {
+                        "name": "PodcastNode",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "podcasts",
+                    "description": null,
+                    "type": {
+                        "name": "PodcastNodeConnection",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "podcastIndex",
+                    "description": null,
+                    "type": {
+                        "name": "PodcastNode",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "podcastIndices",
+                    "description": null,
+                    "type": {
+                        "name": "PodcastNodeConnection",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "featuredPersonalities",
+                    "description": null,
+                    "type": {
+                        "name": "PersonalityNodeConnection",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "personality",
+                    "description": null,
+                    "type": {
+                        "name": "PersonalityNode",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "personalities",
+                    "description": null,
+                    "type": {
+                        "name": "PersonalityNodeConnection",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "personalityIndex",
+                    "description": null,
+                    "type": {
+                        "name": "PersonalityIndexNode",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "personalityIndices",
+                    "description": null,
+                    "type": {
+                        "name": "PersonalityIndexNodeConnection",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "claim",
+                    "description": null,
+                    "type": {
+                        "name": "ClaimNode",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "claims",
+                    "description": null,
+                    "type": {
+                        "name": "ClaimNodeConnection",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "availableAlphabets",
+                    "description": null,
+                    "type": {
+                        "name": null,
+                        "kind": "LIST"
+                    }
+                },
+                {
+                    "name": "autocomplete",
+                    "description": null,
+                    "type": {
+                        "name": null,
+                        "kind": "LIST"
+                    }
+                },
+                {
+                    "name": "search",
+                    "description": null,
+                    "type": {
+                        "name": null,
+                        "kind": "LIST"
+                    }
+                },
+                {
+                    "name": "media",
+                    "description": null,
+                    "type": {
+                        "name": "MediaNode",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "medias",
+                    "description": null,
+                    "type": {
+                        "name": "MediaNodeConnection",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "image",
+                    "description": null,
+                    "type": {
+                        "name": "ImageNode",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "images",
+                    "description": null,
+                    "type": {
+                        "name": "ImageNodeConnection",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "featuredYouTubeVideo",
+                    "description": null,
+                    "type": {
+                        "name": "FeaturedYouTubeVideoNode",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "featuredYouTubeVideos",
+                    "description": null,
+                    "type": {
+                        "name": "FeaturedYouTubeVideoNodeConnection",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "featuredArticles",
+                    "description": null,
+                    "type": {
+                        "name": "ArticleConnection",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "mixedArticles",
+                    "description": null,
+                    "type": {
+                        "name": "ArticleConnection",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "factcheckArticle",
+                    "description": null,
+                    "type": {
+                        "name": "FactcheckArticleNode",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "factcheckArticles",
+                    "description": null,
+                    "type": {
+                        "name": "FactcheckArticleNodeConnection",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "schoolArticle",
+                    "description": null,
+                    "type": {
+                        "name": "SchoolArticleNode",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "schoolArticles",
+                    "description": null,
+                    "type": {
+                        "name": "SchoolArticleNodeConnection",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "reportArticle",
+                    "description": null,
+                    "type": {
+                        "name": "ReportArticleNode",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "reportArticles",
+                    "description": null,
+                    "type": {
+                        "name": "ReportArticleNodeConnection",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "blogArticle",
+                    "description": null,
+                    "type": {
+                        "name": "BlogArticleNode",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "blogArticles",
+                    "description": null,
+                    "type": {
+                        "name": "BlogArticleNodeConnection",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "schoolIndex",
+                    "description": null,
+                    "type": {
+                        "name": "SchoolIndexNode",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "schoolIndices",
+                    "description": null,
+                    "type": {
+                        "name": "SchoolIndexNodeConnection",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "reportIndex",
+                    "description": null,
+                    "type": {
+                        "name": "ReportIndexNode",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "reportIndices",
+                    "description": null,
+                    "type": {
+                        "name": "ReportIndexNodeConnection",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "blogIndex",
+                    "description": null,
+                    "type": {
+                        "name": "BlogIndexNode",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "blogIndices",
+                    "description": null,
+                    "type": {
+                        "name": "BlogIndexNodeConnection",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "factcheckIndex",
+                    "description": null,
+                    "type": {
+                        "name": "FactcheckIndexNode",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "factcheckIndices",
+                    "description": null,
+                    "type": {
+                        "name": "FactcheckIndexNodeConnection",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "articleTag",
+                    "description": null,
+                    "type": {
+                        "name": "ArticleTagNode",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "articleTags",
+                    "description": null,
+                    "type": {
+                        "name": "ArticleTagNodeConnection",
+                        "kind": "OBJECT"
+                    }
+                },
+                {
+                    "name": "articleTagsList",
+                    "description": null,
+                    "type": {
+                        "name": null,
+                        "kind": "LIST"
+                    }
+                },
+                {
+                    "name": "tags",
+                    "description": null,
+                    "type": {
+                        "name": "TagNodeConnection",
+                        "kind": "OBJECT"
+                    }
+                }
+            ]
+        }
+    }
+}
